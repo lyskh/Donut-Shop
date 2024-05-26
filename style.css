@@ -1,0 +1,49 @@
+*{
+
+.sidebar-card {
+    position: fixed;
+    background: linear-gradient(to bottom, #343a40, #95cf97);
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    z-index: 100;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Add margin to prevent overlapping */
+    border-radius: none;
+  }
+  /* Custom styles for sidebar links */
+  .sidebar-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .sidebar-link:hover {
+    background-color: #e9ecef; /* Light gray hover background */
+    color: #223020;
+    text-decoration: none;
+  }
+  /* Custom styles for dashboard cards */
+  .dashboard-card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .dashboard-card-header {
+    background-color: #223020; /* Blue header background */
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .dashboard-card-body {
+    padding: 20px;
+  }
+  /* Custom styles for data cards */
+  .data-card {
+    margin-bottom: 20px;
+  }
+}
